@@ -24,9 +24,9 @@ const Home = () => {
                                 text ever since the 1500s, when an unknown printer took a galley
                                 of type and
                             </p>
-                            <Button variant="danger">
-                                <span>Explore our solution</span>
-                                <HiArrowLongRight />
+                            <Button variant="danger" className="py-0 px-1">
+                                <span className="fs-6">Explore our solution</span>
+                                <HiArrowLongRight className="fs-4" />
                             </Button>
                         </div>
                     </Col>

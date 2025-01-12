@@ -49,8 +49,8 @@ const About = () => {
                                 <span>Lorem Ipsum </span>
                             </div>
                         </div>
-                        <Button variant="danger" className="mt-4">
-                            <span>Learn more</span>
+                        <Button variant="danger" className="mt-4 py-0 px-2">
+                            <span className="fs-6">Learn more</span>
                             <HiArrowLongRight />
                         </Button>
                     </Col>

@@ -9,7 +9,7 @@ import Image1 from "../Assets/Images/image (5).png";
 const Product = () => {
     return (
         <>
-            <Container fluid>
+            <Container fluid className="m-0 p-0">
                 <div className="p-2">
                     <Row className="p-2">
                         <h3 className="text-danger fw-bold">Product</h3>
@@ -36,14 +36,13 @@ const Product = () => {
                     </Row>
                 </div>
                 <Row>
-                    <div>
-                        <Image src={Image1} className="w-100 mt-2 position-relative" />
-                        <div className="position-absolute">
-                            <h2>Have any project with us</h2>
+                    <div className="position-relative">
+                        <Image src={Image1} className="w-100 mt-2" />
+                        <div className="position-absolute top-50 start-50 translate-middle text-white">
+                            <h1>Have any project with us</h1>
                             <p>
-                                Lorem Ipsum has been the industry's standard dummy text ever since
-                                the 1500s, when an Lorem Ipsum has been the industry's standard
-                                dummy text ever since the 1500s, when an
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an <br />
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                             </p>
                         </div>
                     </div>

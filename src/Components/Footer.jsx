@@ -10,7 +10,8 @@ import FooterIcon from "../Assets/Images/logoipsum-331 1 (1).svg";
 const Footer = () => {
   return (
     <>
-      <Container fluid>
+      <Container fluid className="p-0">
+      <div className="border border-5 border-danger border-top"></div>
         <Row className="bg-dark p-5">
           <Col md={4} className="p-5">
             <Row>
