@@ -6,13 +6,14 @@ import { TfiEmail } from "react-icons/tfi";
 import { GrMapLocation } from "react-icons/gr";
 import { FaFacebook, FaYoutube, FaLinkedin } from "react-icons/fa";
 import FooterIcon from "../Assets/Images/logoipsum-331 1 (1).svg";
+import FooterImage from "../Assets/Images/image (10).png";
 
 const Footer = () => {
   return (
     <>
       <Container fluid className="p-0">
-      <div className="border border-5 border-danger border-top"></div>
-        <Row className="bg-dark p-5">
+        <div className="border border-5 border-danger border-top"></div>
+        <Row className="bg-dark p-4">
           <Col md={4} className="p-5">
             <Row>
               <Col md={12}>
@@ -67,14 +68,17 @@ const Footer = () => {
             </div>
           </Col>
 
-          <Col md={5} className="p-5">
-            <div className="d-flex justify-content-center">
-            <Image src={FooterIcon} />
+          <Col md={5} className="">
+            <div className="d-flex justify-content-center mb-2">
+              <Image src={FooterIcon} />
             </div>
             <p className="text-light fs-5">
-            <span className="fw-bold">Lorem Ipsum</span> is simply dummy text of the printing and typesetting
+              <span className="fw-bold">Lorem Ipsum</span> is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
             </p>
+            <div className="d-flex justify-content-center">
+              <Image src={FooterImage} className="w-50" />
+            </div>
           </Col>
         </Row>
       </Container>

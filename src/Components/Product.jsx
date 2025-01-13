@@ -44,6 +44,9 @@ const Product = () => {
                                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an <br />
                                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                             </p>
+                            <Button variant="danger" className="mt-4 py-0 px-2">
+                                <span className="fs-6">Enquiry now</span>
+                            </Button>
                         </div>
                     </div>
                 </Row>

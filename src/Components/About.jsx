@@ -51,7 +51,7 @@ const About = () => {
                         </div>
                         <Button variant="danger" className="mt-4 py-0 px-2">
                             <span className="fs-6">Learn more</span>
-                            <HiArrowLongRight />
+                            <HiArrowLongRight className="fs-4" />
                         </Button>
                     </Col>
                 </Row>
