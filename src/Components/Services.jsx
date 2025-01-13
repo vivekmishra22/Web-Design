@@ -68,8 +68,8 @@ const Services = () => {
                         </div>
                     </div>
                 </Row>
-                <Row>
-                    <Row className="p-4">
+                <Row className="p-5">
+                    <Row className="px-2">
                         <h3 className="text-danger fw-bold">why we choose</h3>
                     </Row>
                     <Col md={5}>
@@ -85,11 +85,21 @@ const Services = () => {
                             when an unknown printer took a galley of type and scrambled it to
                             make a type
                         </p>
-                        <div>
-                            <div>
-                            <Image src={ServicesIcon1} className="" />
-                            <span>Our Projects</span>
-                            <span></span>
+                        <div className="d-flex align-items-center justify-content-center gap-5 mt-5">
+                            <div className="d-flex flex-column align-items-center">
+                                <Image src={ServicesIcon1} className="" />
+                                <span className="text-primary-emphasis fw-normal">Our Projects</span>
+                                <span>200+</span>
+                            </div>
+                            <div className="d-flex flex-column align-items-center">
+                                <Image src={ServicesIcon2} className="" />
+                                <span className="text-primary-emphasis fw-normal">Reviews</span>
+                                <span>4.5M</span>
+                            </div>
+                            <div className="d-flex flex-column align-items-center">
+                                <Image src={ServicesIcon3} className="" />
+                                <span className="text-primary-emphasis fw-normal">Happy Client</span>
+                                <span>300+</span>
                             </div>
                         </div>
                     </Col>

@@ -1,9 +1,11 @@
 import './App.css';
 import About from './Components/About';
+import Clients from './Components/Clients';
+import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 import Home from './Components/Home';
 import MyNavbar from './Components/MyNavbar';
-import Client from './Components/Product';
+import Product from './Components/Product';
 import Services from './Components/Services';
 
 function App() {
@@ -12,8 +14,10 @@ function App() {
       <MyNavbar />
       <Home />
       <About />
-      <Client />
+      <Product />
       <Services />
+      <Clients />
+      <Contact />
       <Footer />
     </>
   );
