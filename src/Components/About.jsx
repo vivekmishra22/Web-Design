@@ -2,7 +2,7 @@ import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import Image from "react-bootstrap/Image";
 import AboutImage from "../Assets/Images/image (1).png";
-import { GoDotFill } from "react-icons/go";
+// import { GoDotFill } from "react-icons/go";
 import { HiArrowLongRight } from "react-icons/hi2";
 
 const About = () => {
@@ -31,7 +31,29 @@ const About = () => {
                             when an unknown printer took a galley of type and scrambled it to
                             make a type
                         </p>
-                        <div className="fw-bold">
+                        <ul>
+                            <li className="text-danger">
+                                <span className="text-dark">
+                                    Lorem Ipsum
+                                </span>
+                            </li>
+                            <li className="text-danger">
+                                <span className="text-dark">
+                                    Lorem Ipsum
+                                </span>
+                            </li>
+                            <li className="text-danger">
+                                <span className="text-dark">
+                                    Lorem Ipsum
+                                </span>
+                            </li>
+                            <li className="text-danger">
+                                <span className="text-dark">
+                                    Lorem Ipsum
+                                </span>
+                            </li>
+                        </ul>
+                        {/* <div className="fw-bold">
                             <div>
                                 <GoDotFill className="text-danger" />
                                 <span>Lorem Ipsum </span>
@@ -48,7 +70,7 @@ const About = () => {
                                 <GoDotFill className="text-danger" />
                                 <span>Lorem Ipsum </span>
                             </div>
-                        </div>
+                        </div> */}
                         <Button variant="danger" className="mt-4 py-0 px-2">
                             <span className="fs-6">Learn more</span>
                             <HiArrowLongRight className="fs-4" />
