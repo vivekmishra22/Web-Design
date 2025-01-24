@@ -37,16 +37,16 @@ const Home = () => {
                     <Col md={7} className="Home-page p-5 m-0 text-light d-flex justify-content-center align-items-center">
                         <div>
                             <h1 className="display-2 fw-semibold">
-                            {/* {Slider.sliderHeading} */}
-                            Lorem ipsum
+                            Lorem ipsum <br />
+                            {Slider.sliderHeading}
                             </h1>
                             <p>
-                            {Slider.sliderDescription}
-                                {/* <span className="fw-bold">Lorem Ipsum</span> is simply dummy text of the printing and typesetting
+                                <span className="fw-bold">Lorem Ipsum</span> is simply dummy text of the printing and typesetting
                                 industry. Lorem Ipsum has been the industry's standard dummy
                                 text ever since the 1500s, when an unknown printer took a galley
-                                of type and */}
+                                of type and
                             </p>
+                            {Slider.sliderDescription} <br />
                             <Button variant="danger" className="py-0 px-1">
                                 <span className="fs-6">Explore our solution</span>
                                 <HiArrowLongRight className="fs-4" />
